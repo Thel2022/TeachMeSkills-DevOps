@@ -18,7 +18,7 @@ jobs:
       with:
         dotnet-version: 6.0.x
     - name: Restore dependencies
-      run: dotnet restore .\WebApplication1DevOps\WebApplication1DevOps
+      run: dotnet restore .\WebApplication1DevOps
     - name: Build
       run: dotnet build --no-restore
     - name: Test
